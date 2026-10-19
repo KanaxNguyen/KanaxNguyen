@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Nam%20Kh%C3%A1nh%20Nguy%E1%BB%85n&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%C2%B7%20LLM%20%26%20Agents%20%C2%B7%20Computer%20Vision%20%C2%B7%20iOS&descAlignY=58&descSize=16" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Nam%20Khanh%20Nguyen&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20-%20LLM%20and%20Agents%20-%20Computer%20Vision%20-%20iOS&descAlignY=58&descSize=16" width="100%" alt="header"/>
 
 <div align="center">
 
@@ -77,8 +77,6 @@ Các lab theo từng ngày, mỗi lab là một bài toán thực tế:
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KanaxNguyen&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top languages"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=KanaxNguyen&theme=tokyonight&hide_border=true" alt="streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=KanaxNguyen&theme=tokyo-night&hide_border=true&area=true" alt="activity graph" width="95%"/>
 
 </div>
 
