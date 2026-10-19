@@ -26,46 +26,95 @@ PROJECTS = [
     {
         "file": "project-cabinsentinel.svg",
         "title": "CabinSentinel",
-        "meta": "Sep 2026 – now · team of 4 · backend, IoT, iOS",
-        "en": "Detects children and pets left behind in parked cars. FastAPI safety engine "
-              "(490+ tests), Raspberry Pi 5 edge service, native SwiftUI app with Live "
-              "Activities and on-device Core ML.",
-        "vi": "Luật “không phát hiện ≠ ghế trống”: báo trống sai từ 288/288 xuống 0/288.",
         "chips": ["FastAPI", "SwiftUI", "Core ML", "Raspberry Pi 5"],
         "accent": "#3fb950",
+        "en": {
+            "meta": "Sep 2026 – now · team of 4 · backend, IoT, iOS",
+            "desc": "Detects children and pets left behind in parked cars. FastAPI safety engine "
+                    "(490+ tests), Raspberry Pi 5 edge service, native SwiftUI app with Live "
+                    "Activities and on-device Core ML.",
+            "note": "“No detection ≠ empty seat”: false “empty” reports cut from 288/288 to 0/288.",
+        },
+        "vi": {
+            "meta": "09/2026 – nay · nhóm 4 người · backend, IoT, iOS",
+            "desc": "Phát hiện trẻ em và thú cưng bị bỏ quên trong xe. Bộ luật an toàn FastAPI "
+                    "(490+ bài test), dịch vụ trên Raspberry Pi 5, app SwiftUI có Live Activities "
+                    "và Core ML chạy trên máy.",
+            "note": "Luật “không phát hiện ≠ ghế trống”: báo trống sai từ 288/288 xuống 0/288.",
+        },
     },
     {
         "file": "project-huce.svg",
         "title": "HUCE Teaching Assignment",
-        "meta": "Jul 2026 – now · piloted with a lecturer",
-        "en": "Imports messy Excel schedules and auto-assigns lecturers with OR-Tools "
-              "CP-SAT: no clashes, balanced workload. Improved from real user feedback.",
-        "vi": "Tự động phân công giảng dạy cho Bộ môn Toán, chạy thử với giảng viên thật.",
         "chips": ["Next.js", "FastAPI", "OR-Tools"],
         "accent": "#58a6ff",
+        "en": {
+            "meta": "Jul 2026 – now · piloted with a lecturer",
+            "desc": "Imports messy Excel schedules and auto-assigns lecturers with OR-Tools "
+                    "CP-SAT: no clashes, balanced workload. Improved from real user feedback.",
+            "note": "Ambiguous preferences go to a review list instead of being guessed.",
+        },
+        "vi": {
+            "meta": "07/2026 – nay · chạy thử với giảng viên",
+            "desc": "Nhập lịch học Excel lộn xộn và tự động phân công giảng viên bằng OR-Tools "
+                    "CP-SAT: không trùng lịch, cân bằng khối lượng dạy.",
+            "note": "Đã chạy thử với giảng viên Bộ môn Toán và cải tiến theo góp ý.",
+        },
     },
     {
         "file": "project-adas.svg",
         "title": "ADAS for Vietnamese Roads",
-        "meta": "Jan – Mar 2026 · team lead",
-        "en": "ResNet-FPN multi-task network for Vietnamese speed signs and lane "
-              "segmentation, with IoU tracking and a speed-limit rule engine "
-              "(Circular 38/2024).",
-        "vi": "Tự thu thập và gán nhãn 300 ảnh đường phố Việt Nam.",
         "chips": ["PyTorch", "ResNet-FPN", "Tracking"],
         "accent": "#f0883e",
+        "en": {
+            "meta": "Jan – Mar 2026 · team lead",
+            "desc": "ResNet-FPN multi-task network for Vietnamese speed signs and lane "
+                    "segmentation, with IoU tracking and a speed-limit rule engine "
+                    "(Circular 38/2024).",
+            "note": "Collected and labeled 300 local road images.",
+        },
+        "vi": {
+            "meta": "01 – 03/2026 · trưởng nhóm",
+            "desc": "Mạng đa nhiệm ResNet-FPN nhận diện biển báo tốc độ và phân vùng làn đường "
+                    "Việt Nam, có theo dõi IoU và bộ luật suy ra tốc độ theo Thông tư 38/2024.",
+            "note": "Tự thu thập và gán nhãn 300 ảnh đường phố Việt Nam.",
+        },
     },
     {
         "file": "project-vinfast.svg",
         "title": "VinFast Vehicle Detection",
-        "meta": "2026 · Kaggle · no-YOLO constraint",
-        "en": "Faster R-CNN detector for VinFast vehicles reaching mAP@0.5 = 0.9523 "
-              "with test-time augmentation, weighted boxes fusion and false-positive filtering.",
-        "vi": "Nhận diện xe VinFast khi không được dùng YOLO.",
         "chips": ["PyTorch", "Faster R-CNN", "Kaggle"],
         "accent": "#a371f7",
+        "en": {
+            "meta": "2026 · Kaggle · no-YOLO constraint",
+            "desc": "Faster R-CNN detector for VinFast vehicles reaching mAP@0.5 = 0.9523 "
+                    "with test-time augmentation, weighted boxes fusion and false-positive filtering.",
+            "note": "Built under a competition rule that banned YOLO.",
+        },
+        "vi": {
+            "meta": "2026 · Kaggle · không dùng YOLO",
+            "desc": "Bộ nhận diện xe VinFast bằng Faster R-CNN, đạt mAP@0.5 = 0.9523 nhờ TTA, "
+                    "WBF và lọc dương tính giả.",
+            "note": "Đề bài cấm dùng YOLO.",
+        },
     },
 ]
+
+# Card labels per README language section.
+LABELS = {
+    "en": {
+        "signal": "Profile Signal", "live": "● live · updated daily",
+        "stats": ["Contributions / year", "Commits / year", "Public repositories", "Languages used"],
+        "langs": "Language Stack", "langs_sub": "own repos · by code size",
+        "langs_note": "Across my own repositories, excluding notebooks and HTML/CSS",
+    },
+    "vi": {
+        "signal": "Chỉ số hồ sơ", "live": "● trực tiếp · cập nhật mỗi ngày",
+        "stats": ["Đóng góp / năm", "Commit / năm", "Repo công khai", "Ngôn ngữ đã dùng"],
+        "langs": "Ngôn ngữ sử dụng", "langs_sub": "theo dung lượng mã",
+        "langs_note": "Tính trên các repo của mình, không gồm notebook và HTML/CSS",
+    },
+}
 
 QUERY = """
 query($login: String!) {
@@ -195,26 +244,26 @@ def header(u, contributions):
     return frame(w, h, body)
 
 
-def signal(u, contributions):
+def signal(u, contributions, lang):
     w, h = 410, 270
-    stats = [
-        (contributions, "Contributions", "Đóng góp / năm"),
-        (u["contributionsCollection"]["totalCommitContributions"], "Commits", "Commit / năm"),
-        (u["repositories"]["totalCount"], "Repositories", "Kho mã công khai"),
-        (len(languages(u)), "Languages", "Ngôn ngữ đã dùng"),
+    L = LABELS[lang]
+    values = [
+        contributions,
+        u["contributionsCollection"]["totalCommitContributions"],
+        u["repositories"]["totalCount"],
+        len(languages(u)),
     ]
     boxes = []
-    for i, (value, en, vi) in enumerate(stats):
+    for i, (value, label) in enumerate(zip(values, L["stats"])):
         x, y = 20 + (i % 2) * 190, 92 + (i // 2) * 84
         boxes.append(
             f'<rect x="{x}" y="{y}" width="180" height="74" rx="12" fill="{PANEL}" stroke="{BORDER}"/>'
-            f'<text x="{x + 16}" y="{y + 36}" font-family="{SANS}" font-size="28" font-weight="800" fill="{GREEN}">{t(value)}</text>'
-            f'<text x="{x + 16}" y="{y + 54}" font-family="{SANS}" font-size="12" font-weight="600" fill="{TEXT}">{t(en)}</text>'
-            f'<text x="{x + 16}" y="{y + 68}" font-family="{SANS}" font-size="10.5" fill="{MUTED}">{t(vi)}</text>'
+            f'<text x="{x + 16}" y="{y + 40}" font-family="{SANS}" font-size="30" font-weight="800" fill="{GREEN}">{t(value)}</text>'
+            f'<text x="{x + 16}" y="{y + 62}" font-family="{SANS}" font-size="12.5" font-weight="600" fill="{TEXT}">{t(label)}</text>'
         )
     body = f"""
-  <text x="20" y="66" font-family="{SANS}" font-size="17" font-weight="700" fill="{TEXT}">Profile Signal</text>
-  <text x="390" y="66" text-anchor="end" font-family="{MONO}" font-size="11" fill="{GREEN}">● live · cập nhật mỗi ngày</text>
+  <text x="20" y="66" font-family="{SANS}" font-size="17" font-weight="700" fill="{TEXT}">{t(L['signal'])}</text>
+  <text x="390" y="66" text-anchor="end" font-family="{MONO}" font-size="11" fill="{GREEN}">{t(L['live'])}</text>
   {''.join(boxes)}
 """
     return frame(w, h, body, "signal.json")
@@ -235,8 +284,9 @@ def languages(u):
     return sorted(totals.items(), key=lambda kv: -kv[1][0])
 
 
-def language_card(u):
+def language_card(u, lang):
     w, h = 410, 270
+    L = LABELS[lang]
     langs = [l for l in languages(u) if l[1][0] / sum(s for _, (s, _) in languages(u)) >= 0.01][:6]
     total = sum(size for _, (size, _) in langs) or 1
     rows = []
@@ -252,34 +302,35 @@ def language_card(u):
             f'<text x="390" y="{y}" text-anchor="end" font-family="{MONO}" font-size="12" fill="{MUTED}">{pct:.0f}%</text>'
         )
     body = f"""
-  <text x="20" y="66" font-family="{SANS}" font-size="17" font-weight="700" fill="{TEXT}">Language Stack</text>
-  <text x="390" y="66" text-anchor="end" font-family="{MONO}" font-size="11" fill="{MUTED}">own repos · by code size</text>
+  <text x="20" y="66" font-family="{SANS}" font-size="17" font-weight="700" fill="{TEXT}">{t(L['langs'])}</text>
+  <text x="390" y="66" text-anchor="end" font-family="{MONO}" font-size="11" fill="{MUTED}">{t(L['langs_sub'])}</text>
   {''.join(rows)}
-  <text x="20" y="258" font-family="{SANS}" font-size="10.5" fill="{DIM}">Ngôn ngữ trong các repo của mình (không tính notebook và HTML/CSS)</text>
+  <text x="20" y="258" font-family="{SANS}" font-size="10.5" fill="{DIM}">{t(L['langs_note'])}</text>
 """
     return frame(w, h, body, "languages.json")
 
 
-def project_card(p):
+def project_card(p, lang):
     w, h = 410, 262
-    en = textwrap.wrap(p["en"], 58)[:4]
-    vi = textwrap.wrap(p["vi"], 60)[:2]
+    text = p[lang]
+    desc = textwrap.wrap(text["desc"], 58)[:4]
+    note = textwrap.wrap(text["note"], 60)[:2]
     lines = "".join(
         f'<text x="20" y="{112 + i * 18}" font-family="{SANS}" font-size="12.5" fill="#c9d1d9">{t(line)}</text>'
-        for i, line in enumerate(en)
+        for i, line in enumerate(desc)
     )
-    vy = 112 + len(en) * 18 + 6
-    vlines = "".join(
-        f'<text x="20" y="{vy + i * 16}" font-family="{SANS}" font-size="11.5" font-style="italic" fill="{MUTED}">{t(line)}</text>'
-        for i, line in enumerate(vi)
+    ny = 112 + len(desc) * 18 + 6
+    notes = "".join(
+        f'<text x="20" y="{ny + i * 16}" font-family="{SANS}" font-size="11.5" font-style="italic" fill="{MUTED}">{t(line)}</text>'
+        for i, line in enumerate(note)
     )
     body = f"""
   <rect x="0" y="38" width="{w}" height="3" fill="{p['accent']}"/>
   <text x="20" y="72" font-family="{SANS}" font-size="18" font-weight="800" fill="{TEXT}">{t(p['title'])}</text>
   <text x="390" y="72" text-anchor="end" font-family="{SANS}" font-size="16" fill="{p['accent']}">↗</text>
-  <text x="20" y="91" font-family="{MONO}" font-size="11" fill="{p['accent']}">{t(p['meta'])}</text>
+  <text x="20" y="91" font-family="{MONO}" font-size="11" fill="{p['accent']}">{t(text['meta'])}</text>
   {lines}
-  {vlines}
+  {notes}
   {chips(p['chips'], 20, h - 40, p['accent'], 11)}
 """
     return frame(w, h, body, p["file"].removeprefix("project-").removesuffix(".svg"))
@@ -290,11 +341,14 @@ def main():
     contributions = u["contributionsCollection"]["contributionCalendar"]["totalContributions"]
     OUT.mkdir(exist_ok=True)
     (OUT / "header.svg").write_text(header(u, contributions), encoding="utf-8")
-    (OUT / "signal.svg").write_text(signal(u, contributions), encoding="utf-8")
-    (OUT / "languages.svg").write_text(language_card(u), encoding="utf-8")
-    for p in PROJECTS:
-        (OUT / p["file"]).write_text(project_card(p), encoding="utf-8")
-    print(f"wrote {len(PROJECTS) + 3} cards to {OUT}")
+    for lang in LABELS:
+        out = OUT / lang
+        out.mkdir(exist_ok=True)
+        (out / "signal.svg").write_text(signal(u, contributions, lang), encoding="utf-8")
+        (out / "languages.svg").write_text(language_card(u, lang), encoding="utf-8")
+        for p in PROJECTS:
+            (out / p["file"]).write_text(project_card(p, lang), encoding="utf-8")
+    print(f"wrote cards to {OUT}")
 
 
 if __name__ == "__main__":
