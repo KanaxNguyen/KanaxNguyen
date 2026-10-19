@@ -1,11 +1,5 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=160&section=header" width="100%" alt=""/>
-
-<h1 align="center">Nguyễn Nam Khánh</h1>
-
 <p align="center">
-  <a href="https://github.com/KanaxNguyen">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=F4C20D&center=true&vCenter=true&width=620&lines=AI+Undergraduate+%40+FPT+University;Computer+Vision+%26+Edge+AI;SwiftUI+%C2%B7+FastAPI+%C2%B7+Core+ML+%C2%B7+PyTorch;From+problem+to+working+prototype" alt="AI Undergraduate · Computer Vision & Edge AI · SwiftUI · FastAPI · Core ML · PyTorch"/>
-  </a>
+  <a href="https://github.com/KanaxNguyen"><img src="assets/header.svg" width="100%" alt="Nguyễn Nam Khánh · AI undergrad · Computer Vision · Edge AI"/></a>
 </p>
 
 <p align="center">
@@ -57,67 +51,14 @@
 
 ## 🚀 Featured projects · Dự án nổi bật
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🚗 [CabinSentinel](https://github.com/KanaxNguyen/CabinSentinel-iOS)
-<sub>Sep 2026 – now · team of 4 · backend, IoT edge, iOS</sub>
-
-Detects **children and pets left behind in parked cars**. FastAPI safety-rule engine with **490+ tests**, Raspberry Pi 5 edge service (camera, radar, temperature), native **SwiftUI** app with Live Activities and on-device Core ML.
-
-<sub>🇻🇳 Cảnh báo **trẻ em, thú cưng bị bỏ quên trong xe**. Luật "không phát hiện ≠ ghế trống" giảm báo "trống" sai từ **288/288 xuống 0/288** khung hình.</sub>
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white)
-![Core ML](https://img.shields.io/badge/Core_ML-000000?style=flat-square&logo=apple&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi_5-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 📅 [HUCE Teaching Assignment](https://github.com/KanaxNguyen/huce-teaching-assignment-mvp)
-<sub>Jul 2026 – now · piloted with a lecturer</sub>
-
-Imports messy Excel schedules and **auto-assigns lecturers with OR-Tools CP-SAT**: no clashes, balanced workload. Piloted with a Mathematics lecturer and improved from real feedback.
-
-<sub>🇻🇳 Tự động **phân công giảng dạy** cho Bộ môn Toán; nguyện vọng mơ hồ được đưa vào danh sách chờ duyệt thay vì tự đoán.</sub>
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![OR-Tools](https://img.shields.io/badge/OR--Tools-4285F4?style=flat-square&logo=google&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛣️ [ADAS for Vietnamese Roads](https://github.com/KanaxNguyen/DAP_Project_ADAS_support)
-<sub>Jan – Mar 2026 · team lead</sub>
-
-**ResNet-FPN multi-task network**: Vietnamese speed and residential-zone sign detection plus lane and divider segmentation, with IoU tracking and a rule engine for speed limits under **Circular 38/2024**.
-
-<sub>🇻🇳 Tự thu thập và gán nhãn **300 ảnh đường Việt Nam**; suy ra tốc độ cho phép theo Thông tư 38/2024.</sub>
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Computer Vision](https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 🚙 [VinFast Vehicle Detection](https://www.kaggle.com/code/asdhjasdjhka/vinfast-detector-v3-1)
-<sub>2026 · Kaggle · no-YOLO constraint</sub>
-
-**Faster R-CNN** detector for VinFast vehicles reaching **mAP@0.5 = 0.9523** with test-time augmentation, weighted boxes fusion and false-positive filtering.
-
-<sub>🇻🇳 Nhận diện xe VinFast khi không được dùng YOLO, đạt **mAP@0.5 = 0.9523**.</sub>
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/KanaxNguyen/CabinSentinel-iOS"><img src="assets/project-cabinsentinel.svg" width="49%" alt="CabinSentinel"/></a>
+  <a href="https://github.com/KanaxNguyen/huce-teaching-assignment-mvp"><img src="assets/project-huce.svg" width="49%" alt="HUCE Teaching Assignment"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/KanaxNguyen/DAP_Project_ADAS_support"><img src="assets/project-adas.svg" width="49%" alt="ADAS for Vietnamese Roads"/></a>
+  <a href="https://www.kaggle.com/code/asdhjasdjhka/vinfast-detector-v3-1"><img src="assets/project-vinfast.svg" width="49%" alt="VinFast Vehicle Detection"/></a>
+</p>
 
 <details>
 <summary><b>➕ More projects · Dự án khác</b></summary>
@@ -189,19 +130,12 @@ Imports messy Excel schedules and **auto-assigns lecturers with OR-Tools CP-SAT*
 ## 📊 GitHub activity · Hoạt động GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KanaxNguyen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KanaxNguyen&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=KanaxNguyen&theme=tokyonight&hide_border=true" alt="Contribution streak"/>
+  <img src="assets/signal.svg" width="49%" alt="Profile signal"/>
+  <img src="assets/languages.svg" width="49%" alt="Language stack"/>
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KanaxNguyen/KanaxNguyen/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KanaxNguyen/KanaxNguyen/output/github-snake.svg"/>
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/KanaxNguyen/KanaxNguyen/output/github-snake.svg"/>
-  </picture>
+  <img src="profile-3d-contrib/profile-night-green.svg" width="100%" alt="The city I built this year · Thành phố mình xây trong năm"/>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%" alt=""/>
+<p align="center"><sub>Cards are generated from live GitHub data every day · Các thẻ được tạo từ dữ liệu GitHub thật, cập nhật mỗi ngày</sub></p>
