@@ -33,8 +33,8 @@ I turn real problems into working prototypes, end to end: from an **IoT edge dev
 - **FastAPI backend & safety-rule engine**: incident lifecycle, device commands, RBAC and audit; unlocking always needs human confirmation; **490+ pytest tests**.
 - **"No detection ≠ empty seat"** rule: on simulated cabin video where YOLOv8 never saw the child, false "empty" reports dropped from **288/288 to 0/288** frames.
 - **Raspberry Pi 5 IoT service**: camera capture with on-device face blurring, SHT31 temperature and LD2410C radar readers, metadata-only uplink — raw images never leave the car.
-- **Native iOS app (SwiftUI)**: OTP sign-in, live cabin status, staged alerts, remote climate, school trips, Live Activities, widgets, on-device **CoreML** detection.
-- Public parts: [CabinSentinel-mobile](https://github.com/KanaxNguyen/CabinSentinel-mobile) (Expo / React Native + web client) · [DepthLab](https://github.com/KanaxNguyen/DepthLab) (SwiftUI tool measuring how far iPhone LiDAR and TrueDepth can be trusted inside a cabin).
+- **Native iOS app — [CabinSentinel-iOS](https://github.com/KanaxNguyen/CabinSentinel-iOS)**: SwiftUI with iOS 26 **Liquid Glass**, **Live Activities & Dynamic Island**, the iPhone itself as the in-car sensor (wide / ultra-wide camera, GPS, battery & thermal state) with on-device **Core ML + Vision** detection and face cover; OTP sign-in, staged alerts, remote climate, school trips.
+- Also public: [CabinSentinel-mobile](https://github.com/KanaxNguyen/CabinSentinel-mobile) (Expo / React Native + web client) · [DepthLab](https://github.com/KanaxNguyen/DepthLab) (SwiftUI tool measuring how far iPhone LiDAR and TrueDepth can be trusted inside a cabin).
 
 `FastAPI` `SwiftUI` `CoreML` `YOLOv8` `Raspberry Pi 5` `MQTT` `Docker`
 
