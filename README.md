@@ -17,7 +17,7 @@
 <p align="center"><sub>👇 Click a language to open or close it · Bấm vào ngôn ngữ để mở hoặc đóng</sub></p>
 
 <details open>
-<summary><img src="https://img.shields.io/badge/EN-English-3fb950?style=for-the-badge&labelColor=0d1117" alt="English"/></summary>
+<summary><kbd>&nbsp;🇬🇧&nbsp;&nbsp;<b>English</b>&nbsp;</kbd></summary>
 
 ## 👋 About me
 
@@ -121,7 +121,7 @@ Owned data collection and pipeline design: **5,997 games × 52 features** from 4
 </details>
 
 <details>
-<summary><img src="https://img.shields.io/badge/VI-Ti%E1%BA%BFng_Vi%E1%BB%87t-da3633?style=for-the-badge&labelColor=0d1117" alt="Tiếng Việt"/></summary>
+<summary><kbd>&nbsp;🇻🇳&nbsp;&nbsp;<b>Tiếng Việt</b>&nbsp;</kbd></summary>
 
 ## 👋 Về mình
 
