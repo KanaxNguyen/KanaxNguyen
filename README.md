@@ -14,7 +14,6 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white" alt="SwiftUI"/>
-  <img src="https://komarev.com/ghpvc/?username=KanaxNguyen&label=Profile%20views&color=2c5364&style=flat-square" alt="Profile views"/>
 </p>
 
 ---
